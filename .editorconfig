@@ -1,0 +1,7 @@
+﻿[*.{cs,vb}]
+
+# IDE0060: Quitar el parámetro no utilizado
+dotnet_code_quality_unused_parameters = all
+
+# IDE0021: Usar cuerpo del bloque para los constructores
+csharp_style_expression_bodied_constructors = true
